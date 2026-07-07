@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['cat', 'chair', 'laptop']
+
+roboflow:
+  workspace: burhan-aydeniz-sle19
+  project: object-segmentation-hblns
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/burhan-aydeniz-sle19/object-segmentation-hblns/dataset/7
